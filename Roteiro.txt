@@ -1,0 +1,44 @@
+Roteiro Pratico 1
+
+CRATE DATABASE nicolas_alves_2023_roteiro_pratico_1
+
+CRATE TABLE clientes(
+    nome VARCHAR(50),
+    idade INTEGER,
+    id INTEGER,
+    email VARCHAR(50)
+);
+
+
+INSERT INTO clientes(nome, email, id, idade)VALUES ('nicolas', 'nicsouzaalv@gmail.com', '1', '22');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('yasmin', 'yas234@gmail.com', '2', '17');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('ana', 'aninha2401@gmail.com', '3', '45');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('luiz', 'luizgameplays22@gmail.com', '4', '23');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('jean', 'jeanzito___@gmail.com', '5', '32');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('enrrique', 'ric09vertz@gmail.com', '6', '37');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('vinicius', 'ratazana044@gmail.com', '7', '14');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('carlos', 'carlãomachão@gmail.com', '8', '28');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('maria', 'mariamadalena78@gmail.com', '9', '32');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('joão', 'joãodobão@gmail.com', '10', '56');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('gui', 'guizin09@gmail.com', '11', '34');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('talia', 'tatatalilili@gmail.com', '12', '23');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('marcus', 'marcuspaulo89@gmail.com', '13', '25');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('lia', 'lilia23@gmail.com', '14', '36');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('ian', 'ian2033@gmail.com', '15', '30');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('latos', 'latosfu09@gmail.com', '16', '21');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('mauro', 'maurofosto45@gmail.com', '17', '40');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('catia', 'catiaprof@gmail.com', '18', '51');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('juliana', 'julianapumtic@gmail.com', '19', '23');
+INSERT INTO clientes(nome, email, id, idade)VALUES ('jozé', 'zedomato@gmail.com', '20', '67');
+
+UPDATE cliente SET nome="joão" WHERE id=2
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+
+
+
+    Nicolas Alves de Souza
+
+
+
