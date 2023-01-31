@@ -143,18 +143,4 @@
 
 -- apague todos os funcionários inativos
  DELETE FROM funcionarios WHERE status_funcionario = 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
